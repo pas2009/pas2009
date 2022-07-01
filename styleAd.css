@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(79, 144, 230);
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: rgb(55, 55, 131);
+    padding: 5%;
+}
+header img{
+    width: 100px;
+    height: 90px;   
+}
+header h1{
+  color: rgb(41, 105, 207);
+  -webkit-text-stroke: rgb(88, 88, 152);
+
+}
+nav{
+    display: flex;
+    justify-content: space-around ;
+    padding: 2%;
+    margin-left: 4%;
+}
+nav a{
+    text-decoration: none;
+    padding: 2%;
+    border: solid 4px white;
+   
+}
+.a1{
+    padding: 1%;
+     background-color: #373783;
+    color: white;
+}
+.a2{
+    padding: 1%;
+     background-color: #373783;
+    color: white;
+    margin-left: 10%;
+}
+article{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 27%;
+    border-radius: 10px;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
+}
+audio1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+
+}
+audio2{
+    width: 100px;
+    height: 100px;
+
+}
+audio3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: space-between ;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 15px;
+}
+article img  {
+   width: 50%;
+   height: 50%;
+   margin-left: 25%;
+}
+.ss2{
+    text-shadow:rgb(0, 0, 0) 3px 2px 5px;
+    margin-left: 15px;
+}
+footer {
+    display: flex;
+    background-color: rgb(46, 46, 126);
+    padding: 5px;
+    justify-content: space-between;
+}
+article p {
+    background-color: #777ed6;
+    border-radius: 10px;
+    padding: 4%;
+    box-shadow: 5px 5px 3px 2px rgb(24, 24, 97);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 5px 4px rgb(199, 189, 189);
+}
+footer article{
+  color: rgb(41, 105, 207);
+  -webkit-text-stroke: rgb(88, 88, 152);
+  background-color: rgb(46, 46, 126);
+}
+footer article p {
+   background-color: rgb(46, 46, 126); 
+   text-shadow: 2px 2px 1px white;
+}
+article:hover{
+    transform: scale(1);
+    transition: 0.8s linear;
+    margin: 3%;
+    box-shadow: 5px 3px 2px 1px black;
+}
